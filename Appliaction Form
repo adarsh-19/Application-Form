@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title> </title>
+</head>
+<body style ="background-color:lightgreen;">
+<h1 style="text-align:center;"> Application Form </h1><br><br><br><br>
+<center>
+<form action="" method="">
+<label for="firstname" > NAME:</label >
+<input type ="text" id="firstname" name="" >&nbsp; &nbsp &nbsp &nbsp &nbsp; &nbsp;
+
+<label for="gender">Gender</label>
+<select>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="Other">Other</option>
+</select>
+</br> <br><br>
+<label for="firstname">FATHER'S NAME:</label >
+<input type ="text" id="firstname" name=""> &nbsp; &nbsp &nbsp;  &nbsp   &nbsp &nbsp; &nbsp
+Date of Birth:-
+<input type="date" name="begin" placeholder="dd-mm-yyyy" value=""  min="1997-01-01" max="2030-12-31">
+<br></br><br><br>
+<label for="number" > Mobile No:</label >
+<input type ="number" id="number"  min="7000000000" max="9999999999"  > &nbsp;  &nbsp   &nbsp &nbsp; &nbsp
+&nbsp; &nbsp; <label for="Passing year of 10+2:">Passing year of 10+2:</label>
+<select>
+
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+
+</select>
+<br></br><br><br>
+Language of Paper you want:?<br>
+  English
+<input type="radio"  name="EnglishorHindi" value"">
+  Hindi
+<input type="radio" name="EnglishorHindi" value""><br></br></br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<input type="submit" value=Submit style ="background-color:red"><br></br>
+
+</form>
+</center>
+<center>
+  IF YOU HAVE PROBLEM TO FILL PLEASE
+<p>
+<a href="https://youtu.be/1_Nm9-Iwsjo">
+ <label for="Click on this" >Click on this link to :</label ></a>
+</p>
+</center>
+</body>
+</html>
