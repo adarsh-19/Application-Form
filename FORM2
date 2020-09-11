@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<title>Form</title>
+<head></head>
+
+<style>
+body{
+     background:#ffffff url("image1.png") no-repeat center top;
+   margin-top:160px;
+    background-color:lightblue;
+    border: inset red ;
+   border-radius:5px;
+   background-size:160px;
+  }
+.center{
+margin-left:104px;
+}
+a:hover{
+color:red;
+text-decoration:underline;
+}
+img{
+float:left;
+border:2px groove blue;
+border-radius:10px;
+}
+</style>
+<p><img src="image12.jpeg"  style="width:110px;height:110px;margin-right:15px;">
+<center>
+<h1 style=" text-decoration:underline;color:red;">Application form </h1><br><br><br>
+<form action =""method"" action="/action_page.php" onsubmit="return validateForm()" method="post" >
+<label for="name" class="center">NAME</label>
+<input type ="text" id="name" name="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label for "number">MOBILE NO:</label>
+<input type="number" id="number" min="7000000000" max="9999999999"><br><br><br>
+<label for="fathername"  class="center">FATHER'S NAME:</label>
+<input type="text" id="fathername" name="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label for "date">DATE OF BIRTH:</label>
+<input type="date" id="number"  placeholder="dd-mm-yyyy" value=""  min="1997-01-01" max="2030-12-31"><br><br><br>
+Passing year of 10+2:
+<select>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+
+</select><br><br>
+Language of Paper:<br>
+English:
+<input type="radio" name="englishorhindi" name="" >
+Hindi:
+<input type="radio" name="englishorhindi" name="" ><br><br><br><br><br><br>
+<input type="submit" value="submit" style="background-color:green;border:2px solid red;">
+</form>
+<br><br>
+</center>
+<a href="http://github.com/adarsh-19">Click To Preceive Code </a>
+<center>
+<p id="demo" ></p>
+<button style="background-color:purple;color:white; border:2px double brown;"><a onclick="window.print()">Print this page </a></button>
+</center>
+</body>
+</html>
